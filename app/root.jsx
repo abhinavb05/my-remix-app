@@ -3,6 +3,7 @@ import {
     Meta,
     Outlet,
     Scripts,
+    LiveReload,
   } from "@remix-run/react";
   
   export default function App() {
@@ -19,8 +20,8 @@ import {
         <body>
           <h1>Hello world!</h1>
           <Outlet />
-  
           <Scripts />
+          <LiveReload />
         </body>
       </html>
     );
